@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">nitidenWorker_new</string>
+    <string name="ApplyItem_ApplyItemContent_categoryLabel">カテゴリー</string>
+    <string name="ApplyItem_ApplyItemContent_expectedCompleteDate">想定完成期間</string>
+    <string name="ApplyItem_ApplyItemContent_day">日</string>
+    <string name="ApplyItem_ApplyItemContent_numberOfPeopleApplying">応募している人数</string>
+    <string name="ApplyItem_ApplyItemContent_people">人</string>
 </resources>
