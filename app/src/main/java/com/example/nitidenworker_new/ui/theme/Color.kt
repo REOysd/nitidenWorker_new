@@ -16,3 +16,5 @@ val ClosingGrey = Color(0xFF808080)
 
 val ApplyImageBorderColor = Color(0xFFD9D9D9)
 val ApplyItemCategoryTextColor = Color(0xFF45C152)
+
+val TopBarBorderColor = Color(0xFFB5B1B1)

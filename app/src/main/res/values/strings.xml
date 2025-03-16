@@ -5,4 +5,6 @@
     <string name="ApplyItem_ApplyItemContent_day">日</string>
     <string name="ApplyItem_ApplyItemContent_numberOfPeopleApplying">応募している人数</string>
     <string name="ApplyItem_ApplyItemContent_people">人</string>
+    <string name="TopBar_Notification_Icon_contentDescription">Notifications</string>
+    <string name="TopBar_Profile_icon_contentDescripton">MyProfile</string>
 </resources>
