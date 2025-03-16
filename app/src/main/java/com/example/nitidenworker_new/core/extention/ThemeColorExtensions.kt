@@ -6,6 +6,7 @@ import com.example.nitidenworker_new.ui.theme.ClosingGrey
 import com.example.nitidenworker_new.ui.theme.ApplyImageBorderColor
 import com.example.nitidenworker_new.ui.theme.ApplyItemCategoryTextColor
 import com.example.nitidenworker_new.ui.theme.RecruitingBlue
+import com.example.nitidenworker_new.ui.theme.TopBarBorderColor
 import com.example.nitidenworker_new.ui.theme.TrendingOrange
 
 // ApplyItem
@@ -23,3 +24,7 @@ val MaterialTheme.imageBorderColor: Color
 
 val MaterialTheme.applyItemTextColor: Color
     get() = ApplyItemCategoryTextColor
+
+// TopBar
+val MaterialTheme.topBarBorderColor: Color
+    get() = TopBarBorderColor
