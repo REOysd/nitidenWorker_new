@@ -5,6 +5,7 @@ import androidx.compose.ui.graphics.Color
 import com.example.nitidenworker_new.ui.theme.ClosingGrey
 import com.example.nitidenworker_new.ui.theme.ApplyImageBorderColor
 import com.example.nitidenworker_new.ui.theme.ApplyItemCategoryTextColor
+import com.example.nitidenworker_new.ui.theme.BottomNavigationBarColor
 import com.example.nitidenworker_new.ui.theme.RecruitingBlue
 import com.example.nitidenworker_new.ui.theme.TopBarBorderColor
 import com.example.nitidenworker_new.ui.theme.TrendingOrange
@@ -28,3 +29,7 @@ val MaterialTheme.applyItemTextColor: Color
 // TopBar
 val MaterialTheme.topBarBorderColor: Color
     get() = TopBarBorderColor
+
+// BottomNavigationBar
+val MaterialTheme.bottomNavigationBarColor: Color
+    get() = BottomNavigationBarColor
