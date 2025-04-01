@@ -8,11 +8,14 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.rememberNavController
 import com.example.nitidenworker_new.common.composable.applyItem.ApplyItem
 import com.example.nitidenworker_new.common.composable.applyItem.SignboardType
 
 @Composable
-fun Home() {
+fun HomeScreen(navController: NavController) {
     LazyColumn(
         verticalArrangement = Arrangement.spacedBy(12.dp),
         modifier = Modifier
@@ -39,5 +42,6 @@ fun Home() {
 @Preview(showBackground = true)
 @Composable
 fun HomeScreenPreview() {
-    Home()
+    val navHostController = rememberNavController()
+    HomeScreen(navHostController)
 }

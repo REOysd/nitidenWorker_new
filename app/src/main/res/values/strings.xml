@@ -7,4 +7,10 @@
     <string name="ApplyItem_ApplyItemContent_people">人</string>
     <string name="TopBar_Notification_Icon_contentDescription">Notifications</string>
     <string name="TopBar_Profile_icon_contentDescripton">MyProfile</string>
+
+    // BottomBar
+    <string name="BottomBarDestinationRoute_home">Home</string>
+    <string name="BottomBarDestinationRoute_search">Search</string>
+    <string name="BottomBarDestinationRoute_favorite">Favorite</string>
+    <string name="BottomBarDestinationRoute_message">Message</string>
 </resources>
